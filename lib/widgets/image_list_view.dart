@@ -57,7 +57,8 @@ class _ImageListViewState extends State<ImageListView> {
           scrollDirection: Axis.horizontal,
           itemBuilder: (BuildContext context, int index) {
             return _ImageTitle(
-                image: 'assets/ntfs/${widget.startIndex + index}.png');
+              image: 'assets/ntfs/${widget.startIndex + index}.png',
+            );
           },
         ),
       ),
@@ -77,7 +78,7 @@ class _ImageTitle extends StatelessWidget {
         Navigator.push(
           context,
           MaterialPageRoute(
-            builder: (_) => NTFScreen(),
+            builder: (_) => NTFScreen(image: image),
           ),
         );
       },
