@@ -7,6 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xff010101),
       body: Stack(
         children: [
           Positioned.fill(
@@ -14,6 +15,8 @@ class HomeScreen extends StatelessWidget {
               blendMode: BlendMode.dstOut,
               shaderCallback: (rect) {
                 return LinearGradient(
+                  begin: Alignment.topCenter,
+                  end: Alignment.bottomCenter,
                   colors: [
                     Colors.transparent,
                     Colors.transparent,
@@ -27,13 +30,63 @@ class HomeScreen extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Column(
                   children: <Widget>[
-                    SizedBox(height: 30),
-                    ImageListView(
-                      startIndex: 1,
-                      duration: 25,
-                    ),
+                    const SizedBox(height: 30),
+                    ImageListView(startIndex: 1, duration: 25),
+                    const SizedBox(height: 10),
+                    ImageListView(startIndex: 11, duration: 45),
+                    const SizedBox(height: 10),
+                    ImageListView(startIndex: 21, duration: 65),
+                    const SizedBox(height: 10),
+                    ImageListView(startIndex: 31, duration: 30),
                   ],
                 ),
+              ),
+            ),
+          ),
+          Positioned(
+            bottom: 60,
+            left: 24,
+            right: 24,
+            child: Container(
+              height: 170,
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  const Text(
+                    'Art with NTFs',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                    ),
+                  ),
+                  const SizedBox(height: 12),
+                  const Text(
+                    'Check out this raffle for you guys only! new coin minted show some love.',
+                    style: TextStyle(
+                      color: Colors.white,
+                      height: 1.2,
+                    ),
+                  ),
+                  Spacer(),
+                  Container(
+                    width: 140,
+                    height: 50,
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8),
+                      color: const Color(0xff3000ff),
+                    ),
+                    child: const Text(
+                      'Discover',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
