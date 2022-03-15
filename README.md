@@ -1,16 +1,25 @@
-# ntf_marketplace
+# NTF practice flutter app mobile
 
-A new Flutter project.
+This app is was created with Flutter, in this app have some animations, and your homeScreen is a different home about the another apps. This app is was created with Flutter, in this app have some animations, and your homeScreen is a different home about the another apps.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+This project is a practice for Flutter and animation with Flutter
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Prerequisites
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- SDK Flutter and Dart >= 2.10.3
+
+### Example of project
+
+![image](https://github.com/ferchodeleon/nft_market/blob/master/video-to-gif-converter.gif)
+
+### Authors ✒️
+
+Application inspired by https://mehrun.pro/
+
+and
+
+https://www.youtube.com/watch?v=awr0dxiCvSA&t=102s
