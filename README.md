@@ -1,14 +1,14 @@
 # NTF practice flutter app mobile
 
-This app is was created with Flutter, in this app have some animations, and your homeScreen is a different home about the another apps. This app is was created with Flutter, in this app have some animations, and your homeScreen is a different home about the another apps.
+This app is was created with Flutter 🛠️, in this app have some animations, and your homeScreen is a different home about the another apps. This app is was created with Flutter, in this app have some animations, and your homeScreen is a different home about the another apps.
 
-## Getting Started
+## Getting Started 🚀
 
 This project is a starting point for a Flutter application.
 
 This project is a practice for Flutter and animation with Flutter
 
-### Prerequisites
+### Prerequisites 📋
 
 - SDK Flutter and Dart >= 2.10.3
 
